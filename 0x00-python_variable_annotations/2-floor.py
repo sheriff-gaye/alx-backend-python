@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-""" module for annotation work python"""
+'''Task 2's module.
+'''
 
 
-def floor(n: float) -> int:
-    """
-        function floor which takes a float n as argument
-        and returns the floor of the float
-    """
-    return (int(n))
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(a)

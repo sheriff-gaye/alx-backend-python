@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-""" module for annotation work python"""
-from typing import Iterable, Sequence, List, Tuple
+'''Task 9's module.
+'''
+from typing import Iterable, List, Sequence, Tuple
 
 
-def element_length(lst: Iterable[Sequence]) -> List[Sequence, int]:
-    """
-        function make_multiplier that takes a float multiplier as argument
-        and returns a function that multiplies a float by multiplier
-    """
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    '''Computes the length of a list of sequences.
+    '''
     return [(i, len(i)) for i in lst]
